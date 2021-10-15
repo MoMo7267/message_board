@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 
-m.setUpdated_at(currentTime);       // 更新日時のみ上書き
 
-            // バリデーションを実行してエラーがあったら編集画面のフォームに戻る
+
+
            <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <c:if test="${errors != null}">
     <div id="flush_error">
